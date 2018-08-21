@@ -1,10 +1,8 @@
 package com.capgemini.storeclient.controllers;
 
-import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,8 +15,6 @@ import com.capgemini.storeclient.beans.Product;
 import com.capgemini.storeclient.exceptions.MerchantNotFoundException;
 import com.capgemini.storeclient.exceptions.ProductNotFoundException;
 import com.capgemini.storeclient.services.IMerchantService;
-import com.mysql.fabric.Response;
-import com.mysql.fabric.xmlrpc.base.Array;
 
 @Controller
 public class MerchantController {
