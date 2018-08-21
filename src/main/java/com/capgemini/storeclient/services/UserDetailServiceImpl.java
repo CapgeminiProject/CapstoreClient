@@ -25,6 +25,7 @@ public class UserDetailServiceImpl implements UserDetailsService{
 
 	public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
 		Merchant user = userDao.findUserByEmail(email);
+		System.err.println(email);
 		if(user == null){
 			throw new UsernameNotFoundException("Invalid username or password.");
 		}

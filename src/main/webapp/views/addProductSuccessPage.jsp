@@ -28,7 +28,7 @@
 <br>
 <br>
 <br>
-<h1> The ${product.productName} product with id ${product.productId} added successfully</h1>
+<h1> The ${product.productName} product with id ${id} added successfully</h1>
 <!-- <div class="container" style="margin: 50px"> -->
 <!-- 		<div> -->
 <!-- 			<form action="/logout" method="post"> -->
